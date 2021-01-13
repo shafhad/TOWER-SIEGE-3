@@ -178,7 +178,7 @@ function keyPressed(){
 }
 async function getBackgroundimage()
 {
-   var response = await fetch("http://worldtimeapi.org/api/ip");
+   var response = await fetch("https://worldtimeapi.org/api/ip");
    var responseJSON = await response.json();
    var dateTime = responseJSON.datetime;
    var hour = dateTime.slice(11,13);
