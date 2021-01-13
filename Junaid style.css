@@ -1,0 +1,21 @@
+body{
+    background: #f6e6b4;
+    background: -moz-linear-gradient(-45deg,  #f6e6b4 19%, #ed9017 47%);
+    background: -webkit-linear-gradient(-45deg,  #f6e6b4 19%,#ed9017 47%);
+    background: linear-gradient(135deg,  #f6e6b4 19%,#ed9017 47%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=1 );
+    
+    text-align: center;
+}
+p{
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+.product-mark{
+   background-color: white; 
+   height: 200px;
+   width: 220px;
+   text-align: left;
+}
+  
+
